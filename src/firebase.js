@@ -13,4 +13,5 @@ firebase.initializeApp({
 });
 
 // Initialize Cloud Firestore through Firebase
-export const db = firebase.firestore();
+const db = firebase.firestore();
+export default db;
